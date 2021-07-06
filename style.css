@@ -2,15 +2,11 @@ body{
     font-family: 'Noto Sans JP', sans-serif;
     margin: 0;
 }
-section{
-    display: flex;
-    margin-bottom: 100px;
-}
 .width{
     width: 50%;
     padding-left: 5%;
 }
-img{
+.width img{
     width: 80%;
     border-radius: 360px;
 }
@@ -20,7 +16,7 @@ h1{
 .wel-color{
     color: crimson;
 }
-p{
+.paragraph{
     text-align: justify;
     text-align: left;
 }
@@ -29,6 +25,65 @@ p{
     color: white;
     background-image: linear-gradient(rgb(211, 98, 201), rgb(209, 50, 117));
     padding: 10px 40px;
-    border-radius: 5px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px hotpink;
 }
+.flex-section{
+    display: flex; 
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;  
+}
+.Recepies{
+
+    width: 240px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 5px 5px 20px gray;
+}
+.align{
+    text-align: center;
+}
+
+.bonus{
+    display: flex; 
+    margin-left: 20px; 
+}
+.bonus h1{
+    display: inline-block;
+    padding-left: 2px;
+    margin-left: 19%;
+    
+}
+
+
+.bonusDiv{
+    box-shadow: 10px 5px 18px black;
+    width: 80%;
+    padding-bottom: 20px;
+    margin-left: 10%;
+    margin-bottom: 3%;
+    border-radius: 45px;
+}
+.bonus div p{
+    display: inline-block;
+    margin-left:17%;
+}
+
+footer div{
+    background-color:gray;
+    text-align: center;
+    padding-top: 4%;
+   
+}
+.alignmentBanner3{
+    margin-left: 20%;
+}
+
+.Recepies p{
+    text-align: justify;
+}
+
+
 
