@@ -1,3 +1,34 @@
 body{
     font-family: 'Noto Sans JP', sans-serif;
+    margin: 0;
 }
+section{
+    display: flex;
+    margin-bottom: 100px;
+}
+.width{
+    width: 50%;
+    padding-left: 5%;
+}
+img{
+    width: 80%;
+    border-radius: 360px;
+}
+h1{
+    font-size: 45px;
+}
+.wel-color{
+    color: crimson;
+}
+p{
+    text-align: justify;
+    text-align: left;
+}
+.tag{
+    text-decoration: none;
+    color: white;
+    background-image: linear-gradient(rgb(211, 98, 201), rgb(209, 50, 117));
+    padding: 10px 40px;
+    border-radius: 5px;
+}
+
